@@ -1,0 +1,391 @@
+
+.work-title{
+    background-image: url( ../img/header-bg.jpeg) ;
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.header-page{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+.container{
+    /* контейнер header */
+    max-width: 1095px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.call-back{
+    /* секция обратного звонка */
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo-page{
+    /* картинка логотида т */
+   width: 162px;
+   height: 24.7px;
+   
+}
+
+.call{
+    /* номер */
+
+    color: #FFFFFF;
+    font-weight: 525;
+font-size: 15px;
+line-height: 21.7px;
+text-shadow: #000 2px 2px 2px;
+
+
+}
+.header-numbe-clolor{
+    /* цвет номера  */
+  color:#D6AF76 ;  
+}
+.call-button{
+    /* кнопка перезвона */
+    text-decoration: none;
+    color: #E4B564;
+    border: 1px solid  #E4B564 ;
+    box-shadow: 1px 2px 2px 2px  #000;
+    font-size: 13.5px;
+    line-height: 22.5px;
+    padding: 7.5px 18.7px 7.5px 36.7px;
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    text-shadow: #000 2px 2px 2px;
+    background-position: left 19.5px  top 50%;
+    margin-left: calc(39px*0.75);
+    
+}
+.page-title{
+    /* заголовок    */
+    color: #FFFFFF;
+    font-weight: 525;
+font-size: 37.5px;
+line-height: 21px;
+margin: 0;
+}
+.title-main{
+    padding-top: 96px;
+    padding-bottom: 31px;
+    text-shadow: #000 2px 2px 2px;
+
+}
+.description-page{
+    /* описание компани */
+    font-weight:calc( 700*0.75);
+font-size: calc(20px*0.75);
+color: #FFFFFF;
+max-width: calc(1182px*0.75);
+padding-bottom: 31px;
+text-shadow: #000 2px 2px 2px;
+}
+.work{
+    /* список с работами  */
+ display: grid;
+ 
+
+grid-template-rows: repeat(2, 350px);
+grid-template-columns: repeat(6, 166px);
+grid-gap: 20px;
+padding-bottom: 61px;
+
+
+
+}
+.link-work{
+    /* блоки с работами  */
+
+text-decoration: none;
+background-color: #D6AF76;
+text-align: center;
+padding-top: 165px;
+text-shadow:5px 2px 2px #000;
+
+
+}
+.first-grid{
+    grid-column-start: span 2 ;
+    background-image: url(/img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.second-grid{
+    
+    grid-column-start: span 2 ;
+    background-image: url(/img/images2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .width-grid{
+   
+   grid-column-start: span 2;
+   background-image: url(/img/images3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth-grid{
+    grid-column-start: span 3;
+    background-image: url(/img/images4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.fifth-grid{
+    grid-column-start: span 3;
+    background-image: url(/img/images5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    display: inline;
+    
+}
+.text-link-work{
+    font-weight: calc(700*0.75) ;
+    font-size:calc(20px*0.75) ;
+    line-height:calc(28px*0.75);
+    color: #FFFFFF;
+   
+ 
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+.machinery-list{
+    background-color: #171717;
+}
+.item-machinery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+   
+}
+.title-aside{
+    padding-top: 61px;
+    padding-bottom: 70.5px;
+}
+.machinery{
+    list-style: none;
+    font-weight:calc(500*0.75) ;
+font-size:calc(20px*0.75) ;
+line-height:calc(25px*0.75) ;
+border: #D6AF76 solid 2px;
+padding-left: 39px;
+padding-top: 33px;
+cursor: pointer;
+
+
+
+color: #FFFFFF;
+}
+.item-1{
+    width:calc(467px*0.75) ;
+height:calc(313px*0.75) ;
+background: #0E0E0E;
+margin-bottom: 18px;
+}
+.item-2{
+    width:calc(467px*0.75);
+    height:calc(405px*0.75);
+   
+background: #242424;
+margin-bottom: 25px;
+}
+.item-3{
+    width:calc(467px*0.75) ;
+    height:calc(255px*0.75) ;
+   
+    
+    background: #1F1F1F;
+    margin-bottom: 20px;
+}
+.item-4{
+    width:calc(467px*0.75) ;
+    height:calc(560px*0.75) ;
+ 
+    
+    background: #1F1F1F;
+    margin-bottom: 143px;
+}
+.item-5{
+    width:calc(467px*0.75) ;
+    height:calc(405px*0.75) ;
+  
+    background: #E4B564;
+}
+.item-6{
+    width:calc(467px*0.75) ;
+    height:calc(313px*0.75) ;
+    
+    
+    background: #0E0E0E;
+    margin-bottom: 20px;
+}
+.item-7{
+    width:calc(467px*0.75) ;
+    height:calc(277px*0.75) ;
+   
+   
+    background: #0A0909;
+}
+
+
+
+.portfolio{
+    background: #0E0E0E;
+    background-image: url(/img/parallax-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.title-button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 129px;
+    padding-bottom: 54px;
+
+}
+.buttom-more{
+       text-decoration: none;
+       color: #E4B564;
+       font-weight: 300;
+font-size: 12.5px;
+line-height: 22.5px;
+border: #E4B564 solid 1px ;
+padding: 7.5px  30px;
+}
+.portfolio-list{
+    margin: 0;
+display: flex;
+padding: 0;
+flex-wrap: wrap;
+
+
+}
+.porfolio-item{
+   
+    width: 364.5px;
+    height: 293.25px;
+    
+    list-style: none;
+    
+
+
+}
+
+footer{
+   
+    padding-bottom: 178.5px;
+    background-color: #171717;
+}
+.client-1{
+    
+    background: #634F2C;
+  
+   
+  
+ 
+    
+    
+}
+
+.client-2{
+    background: rgba(232, 210, 171, 0.76);
+   
+ 
+
+    
+  
+}
+
+   
+
+
+.client-3{
+    background: #E4B564;
+ 
+    
+}
+.client-4{
+    background: #635A4A;
+   
+}
+.client-5{
+    
+    background: #B08C4D;
+  
+}
+.client-6{
+    background: #634F2C;
+    
+}
+.clients{
+    width: 364.5px;
+    height: 293.25px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-repeat: no-repeat;
+    margin: 0;
+    cursor: pointer;
+    
+}
+.clients img{
+    transition: 0.2s;
+    transform: translateY(30px);
+}
+.logo-client{ 
+    max-width: 119px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clients .portfolio-text{
+    transition: 1s;
+    transform: translateY(-30px);
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+
+.clients:hover .portfolio-text,
+.clients:hover .logo-client
+{ 
+transform: translateY(0);
+visibility: visible;
+opacity: 1;
+}
+.client-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.portfolio-text{
+
+font-weight: 450;
+font-size: 16.5px;
+line-height: 21px;
+width: 244.5px;
+
+color: #FFFFFF;
+}
+.text-hover{
+    opacity: 0;
+}
+.machinery:hover .text-hover{
+    opacity: 1;
+    transition: 0.5s;
+}
